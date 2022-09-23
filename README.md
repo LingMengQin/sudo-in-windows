@@ -1,4 +1,13 @@
-# sudo-in-windows
-turn windows command "runas" into "sudo". 简单的把runas命令改名为sudo。
+# sudo command in windows
+This program simply map the runas command to sudo.
+这个程序简单的把runas命令映射为sudo。
 
-如果你不想看这个程序具体怎么写的，而是想直接使用它，你可以将sudo.exe文件直接扔到C:\windows目录下，之后就可以在命令行中使用了。
+
+Usage：
+1.Active Windows user Administrator.
+2.move sudo.exe in path C:\windows or System Environment Variable.
+3.use sudo like in linux.
+
+1.激活Windows的Adminstrator账户。
+2.将sudo.exe放到C:\windows文件夹下或者环境变量的路径中。
+3.像在linux中使用sudo一样使用它。
